@@ -60,13 +60,13 @@ if (!botBannedWords.links) {
 }
 
 var config = {
-	name: 'LumenBoTTT',
+	name: 'YveltalBoTTT',
 	userid: function () {
 		return toId(this.name);
 	},
 	group: '#',
 	customavatars: 'bot.gif',
-	rooms: ['casino'],
+	rooms: ['lobby'],
 	punishvals: {
 		1: 'warn',
 		2: 'mute',
